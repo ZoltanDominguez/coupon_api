@@ -1,0 +1,1 @@
+uvicorn coupon_api.app.main:app --reload

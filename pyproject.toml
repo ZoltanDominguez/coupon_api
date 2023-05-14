@@ -1,0 +1,34 @@
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "coupon_api"
+version = "20230505.1500"
+authors = ["Zoltan Dominguez <zoltan.dominguez@gmail.com>"]
+repository = "https://github.com/ZoltanDominguez/coupon_api"
+description = "Coupon API"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <4.0.0"
+fastapi = "*"
+fastapi-camelcase = "*"
+httpx = "*"
+uvicorn = "*"
+sqlmodel = "*"
+
+
+[tool.poetry.dev-dependencies]
+black = "*"
+isort = "*"
+pylint = "*"
+
+bandit = "*"
+flake8 = "*"
+flake8-bandit = "*"
+flake8-bugbear = "*"
+flake8-copyright = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-html = "*"
+pytest-random-order = "*"
+coverage = "*"
